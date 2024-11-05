@@ -1,0 +1,19 @@
+/bin/
+# Ignorera Eclipse-specifika filer
+.classpath
+.project
+.settings/
+
+# Ignorera kompilerade Java-filer
+bin/
+target/
+*.class
+
+# Ignorera IDE-specifika filer
+.idea/
+*.iml
+
+# Ignorera loggfiler och temporära filer
+*.log
+*.tmp
+.DS_Store

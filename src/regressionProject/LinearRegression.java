@@ -23,6 +23,14 @@ public class LinearRegression {
 		return m * x + b;
 	}
 	
+	public double getIntercept() {
+		return b;
+	}
+	
+	public double getSlope() {
+		return m;
+	}
+	
 	public double meanSquaredError(double[] x, double[] y) {
         int n = x.length;
         double sumSquaredErrors = 0;

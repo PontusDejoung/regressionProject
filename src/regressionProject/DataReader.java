@@ -34,8 +34,4 @@ public class DataReader {
             e.printStackTrace();	
         }
 	}
-	public static void main(String[] args) {
-        DataReader reader = new DataReader("data.csv","date","close");
-	}
-
 }

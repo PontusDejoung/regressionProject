@@ -32,28 +32,4 @@ public class LinearRegression {
         }
         return sumSquaredErrors / n;
     }
-	
-	public static void main(String[] args) {
-	        // Exempeldata
-	        double[] x = {1, 2, 3, 4, 5};  // Oberoende variabel
-	        double[] y = {2, 4, 5, 4, 5};  // Beroende variabel
-
-	        // Skapa ett LinearRegression-objekt
-	        LinearRegression lr = new LinearRegression(x, y);
-
-	        // Skriv ut lutning och intercept
-	        System.out.println("Lutning (m): " + lr.m);
-	        System.out.println("Intercept (b): " + lr.b);
-
-	        // Testa att förutsäga ett nytt värde
-	        double xNew = 6;
-	        double prediction = lr.predict(xNew);
-	        System.out.println("Förutsägelse för x = " + xNew + " är y = " + prediction);
-
-	        // Beräkna och skriv ut Mean Squared Error (MSE)
-	        double mse = lr.meanSquaredError(x, y);
-	        System.out.println("Mean Squared Error: " + mse);
-	}
-
-	
 }

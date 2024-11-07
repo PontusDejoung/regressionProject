@@ -4,7 +4,7 @@ This project provides implementations of regression models (linear, polynomial) 
 
 ## Project Structure
 
-The main Java files are located in the `regressionProject/src/regressionProject` directory:
+The main Java files are located in the `src/regressionProject` directory:
 
 - `DateConverter.java` - Converts dates to intervals for time series analysis.
 - `DataLoader.java` - Loads and preprocesses data from a CSV file.

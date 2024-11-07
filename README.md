@@ -17,8 +17,6 @@ The main Java files are located in the `regressionProject/src/regressionProject`
 - `MainForNeuralNetwork.java` - Main class to demonstrate training and predicting with the neural network.
 
 ## Requirements
-
-- **Java 8 or above**
 - **Apache Commons Math** library for OLS regression:
   - Add the dependency to your project or include the library in the classpath.
 

@@ -30,12 +30,12 @@ The main Java files are located in the `regressionProject/src/regressionProject`
       <version>3.6.1</version>
   </dependency>
   
+  <dependency>
+      <groupId>tech.tablesaw</groupId>
+      <artifactId>tablesaw-core</artifactId>
+      <version>0.38.1</version>
+  </dependency>
 ```xml
-<dependency>
-    <groupId>tech.tablesaw</groupId>
-    <artifactId>tablesaw-core</artifactId>
-    <version>0.38.1</version>
-</dependency>
 
 ## Usage
 

@@ -29,22 +29,10 @@ The main Java files are located in the `regressionProject/src/regressionProject`
       <artifactId>commons-math3</artifactId>
       <version>3.6.1</version>
   </dependency>
-  
+
   <dependency>
       <groupId>tech.tablesaw</groupId>
       <artifactId>tablesaw-core</artifactId>
       <version>0.38.1</version>
   </dependency>
-```xml
 
-## Usage
-
-Key Classes
-- DateConverter: Converts dates to intervals for time series predictions and back to date format.
-- DataLoader: Loads and prepares data from a CSV file, including date transformation and feature extraction.
-- LinearRegression: Fits a linear regression model to univariate data.
-- PolynomialRegression: Fits a polynomial regression model to univariate data.
-- MultivariatePolynomialRegression: Fits a polynomial regression model to multivariate data, transforming features to polynomial terms.
-- NeuralNetwork: A simple feed-forward neural network for regression tasks with customizable layers and activation functions.
-- Main: Demonstrates how to load data, train a regression model, and generate predictions.
-- MainForNeuralNetwork: Demonstrates how to load data, train a neural network, and make predictions.

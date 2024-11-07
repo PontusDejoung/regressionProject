@@ -3,7 +3,6 @@
 .classpath
 .project
 .settings/
-.wulf.csv
 
 # Ignorera kompilerade Java-filer
 bin/
@@ -18,3 +17,5 @@ target/
 *.log
 *.tmp
 .DS_Store
+
+wulf.csv
